@@ -1,37 +1,70 @@
 html{
-    background-color: #96A4A5;
+    background-color: #fbe8d8;
+    
+    
+
 }
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 img {
     width: 1280px;
     height: 500px;
     
+    
 }
-
 body {
     font-family: Arial, sans-serif;
 }
 h1{
     text-align: center;
-    color: black;
-    font-style: italic;
+    color: #d7ccc0;
+    font-style:italic;
+    font-family:'Courier New', Courier, monospace;
 }
 h2{
     text-align: center;
     font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-color: #E2C3AF;
+        overflow: hidden;
+        
+}
+h3 {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-color: #E2C3AF;
+        overflow: hidden;
+}
+h4 {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-color: #E2C3AF;
+        overflow: hidden;
 }
 
 p {
-    font-style: oblique;
+    font-style:oblique;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 footer{
     text-align: center;
     font-style: oblique;
+
 }
 
 nav {
@@ -55,7 +88,7 @@ nav {
 }
 
 .menu a {
-    color: black;
+    color: #e2c3af;
     text-decoration: none;
     font-size: 18px;
     padding: 10px;
@@ -63,7 +96,7 @@ nav {
 }
 
 .menu a:hover {
-    background-color: #575757;
+    background-color: #E5EFEB;
     border-radius: 4px;
 }
 
@@ -78,15 +111,16 @@ nav {
 /* Binnenste balk */
 .skill-bar {
     height: 25px;              /* Hoogte van de balk */
-    background-color: lightcoral; /* Kleur van de balk */
+    background-color: #D7CCC0; /* Kleur van de balk */
     width: 70%;                /* Percentage van de vaardigheid */
     border-radius: 10px;       /* Zelfde radius voor ronde hoeken */
     text-align: right;         /* Tekst aan de rechterkant */
     padding-right: 5px;
-    color: white;              /* Tekstkleur */
+    color: #C99D8E;              /* Tekstkleur */
     font-weight: bold;
 }
 button{
     text-align: center;
+    
     
 }
