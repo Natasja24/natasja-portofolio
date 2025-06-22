@@ -4,6 +4,22 @@ html{
     
 
 }
+.projecten {
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+    display: flex;
+
+}
+.link {
+    font-size: 40px;
+    display:flex;
+    text-align: justify;
+}
+h6 {
+    text-align: center;
+    font-size: 50px;
+}
 
 
 * {
@@ -23,9 +39,12 @@ body {
 }
 h1{
     text-align: center;
-    color: #d7ccc0;
-    font-style:italic;
-    font-family:'Courier New', Courier, monospace;
+    color:black;
+    font-style:italic; 
+    font-family: "tangerine", sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    font-style:oblique;
 }
 h2{
     text-align: center;
@@ -35,7 +54,7 @@ h2{
         justify-content: center;
         align-items: center;
         margin: 0;
-        background-color: #E2C3AF;
+        background-color: peachpuff;
         overflow: hidden;
         
 }
@@ -60,7 +79,9 @@ p {
     font-style:oblique;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
 }
+
 footer{
     text-align: center;
     font-style: oblique;
@@ -88,7 +109,7 @@ nav {
 }
 
 .menu a {
-    color: #e2c3af;
+    color: palevioletred;
     text-decoration: none;
     font-size: 18px;
     padding: 10px;
@@ -122,5 +143,8 @@ nav {
 button{
     text-align: center;
     
+
+    
     
 }
+
